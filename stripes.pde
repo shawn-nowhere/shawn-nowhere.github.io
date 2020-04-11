@@ -1,5 +1,5 @@
 int margin = 50;
-int numFrames = 20;
+int numFrames = 200;
  
 void setup(){
   size(600,600);
