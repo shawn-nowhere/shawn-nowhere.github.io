@@ -30,12 +30,12 @@ void draw(){
   rect(margin,margin,width-2*margin,height-2*margin);
  
   // Saves the frame
-  println(frameCount,"/",numFrames);
-  saveFrame("frame###.png");
+  //println(frameCount,"/",numFrames);
+  //saveFrame("frame###.png");
  
   // Stops when all the frames are rendered
   if(frameCount == numFrames){
-    println("finished");
+    //println("finished");
     stop();
   }
 }
