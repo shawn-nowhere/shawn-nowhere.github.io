@@ -7,7 +7,7 @@ void setup(){
 }
  
 float pixel_color(float x,float y,float t){
-  float result = map(sin(TWO_PI*t),-1,1,0,1);
+  float result = map(sin(TWO_PI*t+0.05*y),-1,1,0,1);
   return 255*result;
 }
  
